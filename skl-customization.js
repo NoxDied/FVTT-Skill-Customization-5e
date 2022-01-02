@@ -22,12 +22,6 @@ function patchActor5ePrepareData() {
             let bonusAsInt = parseInt(Number(bonus));
             if (!isNaN(bonusAsInt)) {
                 skill.total += bonusAsInt;
-
-                // recalculate passive score, taking observant feat into account
-                const observant = this.data.flags.dnd5e?.observantFeat;
-                const passiveBonus =
-                    observant && CONFIG.DND5E.characterFlags.observantFeat.skills.includes(key) ? 5 : 0;
-                skill.passive = 10 + skill.total + passiveBonus;
             }
         }
     }, "WRAPPER");
