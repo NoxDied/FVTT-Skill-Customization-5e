@@ -1,3 +1,7 @@
+# ATTENTION
+
+THIS IS A FORK OF A MODULE WRIITEN BY http://coleschultz.dev/. I SIMPLY UPDATED IT TO MATCH THE CURRENT FOUNDRY SYSTEM FOR MY PERSONAL USE. I HAVE RECEIVED PERMISSION FROM COLE TO PUBLISH IT HERE FOR WIDESPREAD USE.
+
 # Skill Customization for D&D5E
 
 Gives the ability to apply arbitrary flat bonuses to skill rolls as well as changing the base ability modifier a skill roll uses.
