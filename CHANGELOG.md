@@ -5,7 +5,7 @@
 ### CHANGED
 
 - Updated entityClass to documentClass to match new foundry versions.
-- NOTE: Passive calculation still necessary despite being native.
+- Updated passive calculation to match new dnd5e system
 
 ## [2.3.0] 2021-01-16
 
