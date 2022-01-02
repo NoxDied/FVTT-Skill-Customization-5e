@@ -2,7 +2,7 @@
 
 ## [2.4.0] 2022-01-02
 
-###CHANGED
+### CHANGED
 
 - Removed passive skill calculation
 - Updated entityClass to documentClass to match new foundry versions
