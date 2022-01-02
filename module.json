@@ -7,6 +7,8 @@
   ],
   "version": "2.5.2",
   "author": "NoxDied (NoxDied#1405)",
+  "original author": "Cole Schultz (cole#9640)",
+
   "esmodules": [
     "skl-customization.js"
   ],
