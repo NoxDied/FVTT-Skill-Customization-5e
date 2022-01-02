@@ -12,7 +12,7 @@
   ],
   "styles": [
     "skl-cust-styles.css"
-  ],
+  ]
   "minimumCoreVersion": "0.6.2",
   "compatibleCoreVersion": "0.7.9",
   "url": "https://github.com/schultzcole/FVTT-Skill-Customization-5e",
