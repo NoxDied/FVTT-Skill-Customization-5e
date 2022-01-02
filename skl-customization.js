@@ -12,7 +12,7 @@ Hooks.once("setup", () => {
 Hooks.on("renderActorSheet", injectActorSheet);
 
 function patchActor5ePrepareData() {
-    libWrapper.register(MODULE_NAME, "CONFIG.Actor.entityClass.prototype.prepareData", function patchedPrepareData(wrapped, ...args) {
+    libWrapper.register(MODULE_NAME, "CONFIG.Actor.documentClass.prototype.prepareData", function patchedPrepareData(wrapped, ...args) {
         wrapped(...args);
 
         const skills = this.data.data.skills;
@@ -34,7 +34,7 @@ function patchActor5ePrepareData() {
 }
 
 function patchActor5eRollSkill() {
-    libWrapper.register(MODULE_NAME, "CONFIG.Actor.entityClass.prototype.rollSkill", function patchedRollSkill(wrapped, ...args) {
+    libWrapper.register(MODULE_NAME, "CONFIG.Actor.documentClass.prototype.rollSkill", function patchedRollSkill(wrapped, ...args) {
         const [ skillId, options ] = args;
         const skillBonus = this.getFlag(MODULE_NAME, `${skillId}.${SKILL_BONUS_KEY}`);
         if (skillBonus) {
