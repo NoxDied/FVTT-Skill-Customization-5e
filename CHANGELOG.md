@@ -4,7 +4,8 @@
 
 ### CHANGED
 
-- Updated entityClass to documentClass to match new foundry versions
+- Updated entityClass to documentClass to match new foundry versions.
+- NOTE: Passive calculation still necessary despite being native.
 
 ## [2.3.0] 2021-01-16
 
