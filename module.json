@@ -5,7 +5,7 @@
   "systems": [
     "dnd5e"
   ],
-  "version": "2.5.0",
+  "version": "2.5.2",
   "author": "NoxDied (NoxDied#1405)",
   "original author": "Cole Schultz (cole#9640)",,
   "esmodules": [
@@ -18,8 +18,8 @@
   "compatibleCoreVersion": "V9",
   "url": "https://github.com/NoxDied/FVTT-Skill-Customization-5e",
   "manifest": "https://raw.githubusercontent.com/NoxDied/FVTT-Skill-Customization-5e/master/module.json",
-  "download": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/archive/2.5.0.zip",
-  "license": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.0/LICENSE",
-  "readme": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.0/README.md",
-  "changelog": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.0/CHANGELOG.md"
+  "download": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/archive/2.5.2.zip",
+  "license": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.2/LICENSE",
+  "readme": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.2/README.md",
+  "changelog": "https://github.com/NoxDied/FVTT-Skill-Customization-5e/blob/2.5.2/CHANGELOG.md"
 }
