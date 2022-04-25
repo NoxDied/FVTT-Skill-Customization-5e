@@ -24,7 +24,9 @@ function patchActor5ePrepareData() {
                 skill.total += bonusAsInt;
                 
                 // recalculate passive score, with new dnd5e modifier fields
-                skill.passive = 10 + skill.total + Number(skill.bonuses.passive);
+                if (skill.bonuses) {
+                    skill.passive = 10 + skill.total + Number(skill.bonuses.passive);
+                }
             }
         }
     }, "WRAPPER");
